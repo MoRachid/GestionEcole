@@ -17,7 +17,7 @@ import javax.persistence.Persistence;
  */
 public class AbstractFacade<T> {
 
-    private static final String PERSISTENCE_UNIT_NAME = "ProjectCommande";
+    private static final String PERSISTENCE_UNIT_NAME =  "ProjectCommande";
     private Class<T> entityClass;
     private EntityManager em;
 
